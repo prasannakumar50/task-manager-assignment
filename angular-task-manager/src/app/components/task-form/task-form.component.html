@@ -1,0 +1,24 @@
+<div class="mb-3">
+
+  <input
+    type="text"
+    class="form-control mb-2"
+    placeholder="Title"
+    [(ngModel)]="title"
+  />
+
+  <input
+    type="text"
+    class="form-control mb-2"
+    placeholder="Description"
+    [(ngModel)]="description"
+  />
+
+  <button
+    class="btn btn-primary w-100"
+    (click)="addTask()"
+  >
+    Add Task
+  </button>
+
+</div>

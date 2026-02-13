@@ -1,0 +1,8 @@
+<ul class="list-group">
+
+  <app-task-item
+    *ngFor="let task of service.filteredTasks"
+    [task]="task">
+  </app-task-item>
+
+</ul>
