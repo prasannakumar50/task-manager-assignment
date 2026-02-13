@@ -1,4 +1,4 @@
-# ⚛️ React Task Manager
+#  React Task Manager
 
 A simple **Task Manager application** built using React and Bootstrap.
 
