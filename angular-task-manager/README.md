@@ -16,7 +16,7 @@ Users can:
 
 ##  Step 1 — Clone the repository
 
-git clone <your-repo-url>
+git clone https://github.com/prasannakumar50/task-manager-assignment.git
 
 ## Step 2 (Navigate to Angular project)
 cd angular-task-manager
