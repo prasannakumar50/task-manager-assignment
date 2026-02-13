@@ -1,59 +1,73 @@
 # AngularTaskManager
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.19.
+A simple Task Manager application built using Angular and Bootstrap.
 
-## Development server
+Users can:
+- Add tasks
+- Mark tasks as completed
+- Delete tasks
+- Filter tasks (All / Completed / Pending)
 
-To start a local development server, run:
+---
 
-```bash
+#  Project Setup (Step-by-Step Guide)
+
+
+
+##  Step 1 — Clone the repository
+
+git clone <your-repo-url>
+
+## Step 2 (Navigate to Angular project)
+cd angular-task-manager
+
+
+## Step 3 (Install dependencies)
+npm install
+
+
+
+## Step 4 (Start development server)
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
+## Step 5 (Run unit tests)
 ng test
-```
 
-## Running end-to-end tests
 
-For end-to-end (e2e) testing, run:
+## Features Implemented
 
-```bash
-ng e2e
-```
+- Add new task
+- Delete task
+- Toggle complete
+- Filter tasks
+- Responsive layout
+- Service-based state management
+- Unit tests
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Architecture Explanation Components
+
+UI is split into small reusable components.
+
+TaskService
+Handles:
+ - Add
+ - Delete
+ - Filter
+
+This keeps logic separate from UI.
+
+
+
+
+## Testing 
+ng test
+Unit tests focus on:
+TaskService logic
+
+
+
+
